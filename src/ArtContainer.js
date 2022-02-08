@@ -9,18 +9,20 @@ import sun from "./images/art_images/sun illustration photo.jpg";
 
 function Art() {
     return (
-    <div>
+    <>
     <h1>Art</h1>
     <h2>a collection of works in watercolor, acrylic, and oil pastel</h2>
-    <img src={cleopatra} width="200" height="300"/>
-    <img src={hirono} width="200" height="300"/>
-    <img src={oconnor} width="200" height="300"/>
-    <img src={williams} width="200" height="300"/>
-    <img src={rbg} width="200" height="300"/>
-    <img src={tugboat} width="200" height="300"/>
-    <img src={moon} width="200" height="300"/>
-    <img src={sun} width="200" height="300"/>
+    <div className="item-wrapper">
+    <img src={cleopatra} className="item"/>
+    <img src={hirono} className="item"/>
+    <img src={oconnor} className="item"/>
+    <img src={williams} className="item"/>
+    <img src={rbg} className="item"/>
+    <img src={tugboat} className="item"/>
+    <img src={moon} className="item"/>
+    <img src={sun} className="item"/>
     </div>
+    </>
     )
 }
   

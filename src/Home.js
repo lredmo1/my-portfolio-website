@@ -8,9 +8,9 @@ function Home() {
         <h1>The ABC Creative</h1>
         <h2>A Digital Portfolio by Lisa Primeaux-Redmond</h2>
         <h3>A place for what I create</h3>
-        <img src={art_thumbnail} width="500" />
-        <img src={baking_thumbnail} width="500" />
-        <img src={code_thumbnail} width="500" />
+        <a href="/art"><img src={art_thumbnail} width="500" /></a>
+        <a href="/baking"><img src={baking_thumbnail} width="500" /></a>
+        <a href="/code"><img src={code_thumbnail} width="500" /></a>
     </>
     )
 }
