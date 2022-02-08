@@ -1,27 +1,25 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Fragment } from 'react'
 import './App.css';
-import ArtContainer from 'ArtContainer'
-import BakingContainer from 'BakingContainer'
-import CodeContainer from 'CodeContainer'
+import Navbar from './Navbar'
+import Home from './Home'
+import ArtContainer from './ArtContainer'
+import BakingContainer from './BakingContainer'
+import CodeContainer from './CodeContainer'
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <Switch>
-          <Route exact path="/">
-            <Home/>
-          </Route>
-          <Route exact path="/art">
-            <ArtContainer/>
-          </Route>
-          <Route exact path="/baking">
-            <BakingContainer/>
-          </Route>
-          <Route exact path="/code">
-            <CodeContainer/>
-          </Route>
-        </Switch>
+      <Fragment>
+        <Navbar/>
+        <Routes>
+          <Route exact path="/" element={<Home/>}></Route>
+          <Route exact path="/art" element={<ArtContainer/>}></Route>
+          <Route exact path="/baking" element={<BakingContainer/>}></Route>
+          <Route exact path="/code" element={<CodeContainer/>}></Route>
+        </Routes>
+        </Fragment>
       </BrowserRouter>
     </div>
   );
