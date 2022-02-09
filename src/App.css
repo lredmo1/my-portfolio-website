@@ -88,12 +88,47 @@ span {
   justify-content: center;
 }
 
+.img__wrap {
+  position: relative;
+  width: 300px;
+  height: 450px;
+}
+
 img.item {
   width: 300px;
   height: 450px;
   margin: 50px;
   border-radius: 10px;
   object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(245, 245, 245, 0.70);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: LocalBrewerySans;
+  font-size: 20px;
 }
 
 /* Coding Page */

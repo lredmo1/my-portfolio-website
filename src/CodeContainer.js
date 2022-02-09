@@ -12,7 +12,7 @@ function Code() {
       <div className="code-wrapper">
         <div className="code-card">
           <h3>Music Lessons</h3>
-          <a href="https://music-lessons-app.herokuapp.com/">
+          <a href="https://music-lessons-app.herokuapp.com/" target="_blank">
             <img src={music} className="website-thumbnail"/>
           </a>
           <h5>
@@ -24,22 +24,22 @@ function Code() {
           </h5>
           <ul>
             <li>
-              <a href="https://music-lessons-app.herokuapp.com/">
+              <a href="https://music-lessons-app.herokuapp.com/" target="_blank">
                 Live Website
               </a>
             </li>
             <li>
-              <a href="https://vimeo.com/662859653">Video Demo</a>
+              <a href="https://vimeo.com/662859653" target="_blank">Video Demo</a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/musiclessons">Github Repo</a>
+              <a href="https://github.com/lredmo1/musiclessons" target="_blank">Github Repo</a>
             </li>
           </ul>
         </div>
 
         <div className="code-card">
           <h3>Cookie Monster In Danger!</h3>
-          <a href="https://monster-in-danger-695bb.web.app/">
+          <a href="https://monster-in-danger-695bb.web.app/" target="_blank">
             <img src={trivia} className="website-thumbnail"/>
           </a>
           <h5>
@@ -51,20 +51,20 @@ function Code() {
           </h5>
           <ul>
             <li>
-              <a href="https://monster-in-danger-695bb.web.app/">
+              <a href="https://monster-in-danger-695bb.web.app/" target="_blank">
                 Live Website
               </a>
             </li>
             <li>
-              <a href="https://vimeo.com/667545278">Video Demo</a>
+              <a href="https://vimeo.com/667545278" target="_blank">Video Demo</a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/cookie-monster-in-jeopardy">
+              <a href="https://github.com/lredmo1/cookie-monster-in-jeopardy" target="_blank">
                 Github Repo
               </a>
             </li>
             <li>
-              <a href="https://javascript.plainenglish.io/a-beginners-guide-to-the-levenshtein-distance-algorithm-part-1-d581fef7588f">
+              <a href="https://javascript.plainenglish.io/a-beginners-guide-to-the-levenshtein-distance-algorithm-part-1-d581fef7588f" target="_blank">
                 Associated Blog Series
               </a>
             </li>
@@ -73,7 +73,7 @@ function Code() {
 
         <div className="code-card">
           <h3>Productivity Planner</h3>
-          <a href="https://personal-weekly-planner.web.app/">
+          <a href="https://personal-weekly-planner.web.app/" target="_blank">
             <img src={planner} className="website-thumbnail"/>
           </a>
           <h5>
@@ -84,20 +84,20 @@ function Code() {
           </h5>
           <ul>
             <li>
-              <a href="https://personal-weekly-planner.web.app/">
+              <a href="https://personal-weekly-planner.web.app/" target="_blank">
                 Live Website
               </a>
             </li>
             <li>
-              <a href="https://vimeo.com/669611459">Video Demo</a>
+              <a href="https://vimeo.com/669611459" target="_blank">Video Demo</a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/Phase-2-project---Productivity-App">
+              <a href="https://github.com/lredmo1/Phase-2-project---Productivity-App" target="_blank">
                 Github Repo Front End
               </a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/weekly-personal-planner-backend">
+              <a href="https://github.com/lredmo1/weekly-personal-planner-backend" target="_blank">
                 Github Repo Back End
               </a>
             </li>
@@ -110,18 +110,18 @@ function Code() {
           <h5>A React frontend with a Sinatra API backend that uses Active Record to access and persist data to the database. This app is a management tool for animal shelter organizations that allows them to keep track of animals, adoption applications, and shelter data all in one location. </h5>
           <ul>
             <li>
-              <a href="">Live Website (Coming Soon)</a>
+              <a href="" target="_blank">Live Website (Coming Soon)</a>
             </li>
             <li>
-              <a href="https://vimeo.com/667555457">Video Demo</a>
+              <a href="https://vimeo.com/667555457" target="_blank">Video Demo</a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/pet-shelter-front">
+              <a href="https://github.com/lredmo1/pet-shelter-front" target="_blank">
                 Github Repo Front End
               </a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/phase-3-sinatra-react-project">
+              <a href="https://github.com/lredmo1/phase-3-sinatra-react-project" target="_blank">
                 Github Repo Back End
               </a>
             </li>
@@ -134,13 +134,13 @@ function Code() {
           <h5>A Rails frontend and React Backend application using HTML Canvas functionality. This is a drawing app that allows artists to create multi-layer drawings. User drawings are saved as a string of data and "redrawn" when viewed, allowing the user to continue editing after saving. </h5>
           <ul>
             <li>
-              <a href="">Live Website (Coming Soon)</a>
+              <a href="" target="_blank">Live Website (Coming Soon)</a>
             </li>
             <li>
-              <a href="">Video Demo (Coming Soon)</a>
+              <a href=""  target="_blank">Video Demo (Coming Soon)</a>
             </li>
             <li>
-              <a href="https://github.com/lredmo1/gestate">Github Repo</a>
+              <a href="https://github.com/lredmo1/gestate" target="_blank">Github Repo</a>
             </li>
           </ul>
         </div>

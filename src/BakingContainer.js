@@ -8,22 +8,49 @@ import shr_wedding from "./images/baking_images/IMG_4820.JPG";
 import caro_wedding from "./images/baking_images/IMG_9712.JPG";
 
 function Baking() {
-    return (
+  return (
     <>
-    <h1>Baking</h1>
-    <h2>a collection of cakes and more made with food-allergy-friendly ingredients</h2>
-    <div className="item-wrapper">
-    <img src={first_bday} className="item"/>
-    <img src={miller_wedding} className="item"/>
-    <img src={shr_wedding} className="item"/>
-    <img src={caro_wedding} className="item"/>
-    <img src={shr_cake} className="item"/>
-    <img src={mermaid_cupcakes} className="item"/>
-    <img src={flower_cupcakes } className="item"/>
-    <img src={bday_Cake} className="item"/>
-    </div>
+      <h1>Baking</h1>
+      <h2>
+        a collection of cakes and more made with food-allergy-friendly
+        ingredients
+      </h2>
+      <div className="item-wrapper">
+          <div className="img__wrap">
+            <img src={first_bday} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={miller_wedding} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={shr_wedding} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={caro_wedding} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={shr_cake} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={mermaid_cupcakes} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={flower_cupcakes} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+          <div className="img__wrap">
+            <img src={bday_Cake} className="item" />
+            <p class="img__description">This image looks super neat.</p>
+          </div>
+        </div>
     </>
-    )
+  );
 }
-  
+
 export default Baking;
