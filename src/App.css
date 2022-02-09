@@ -1,24 +1,72 @@
 /* Universal && Home Page */
+@font-face {
+  font-family: Momcake-Bold;
+  src: url(./fonts/Momcake-Bold.otf);
+}
+
+@font-face {
+  font-family: LocalBrewerySans;
+  src: url(./fonts/LocalBrewerySans.otf);
+}
+
 body {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: white;
 }
 
 h1 {
   text-align: center;
+  /* box-shadow: inset 0px -6px 0px 0px rgb(209, 252, 16, .75); */
+  padding-bottom: 0px;
+  text-decoration: underline;
+  text-decoration-color: rgb(209, 252, 16, .75);
+  font-family: LocalBrewerySans;
+  font-size: 70px;
+  margin-bottom: 0;
 }
 
 h2 {
   text-align: center;
+  font-family: Momcake-Bold;
+  margin-top: 5px;
+  padding: 0;
 }
 
-h3 {
+a {
+  color: white;
+  font-family: Momcake-Bold;
+}
+
+#navbar {
   text-align: center;
+  background-color: rgb(209, 252, 16);
+  padding: 15px;
+  width: 100vw;
 }
 
-img {
+.nav-links {
+  color: black;
+  margin: 20px;
+  font-weight: 500;
+}
+
+#home-thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.home-thumbnails {
   margin: 30px;
   border-radius: 10px;
+  text-align: center;
+  width:300px;
+}
+
+.home-thumbnails:hover{
+  box-shadow: 1px 1px 50px whitesmoke;
+  cursor: pointer;
 }
 
 /* Art and Baking Pages */
@@ -29,9 +77,9 @@ img {
 }
 
 img.item {
-  width: 200px;
-  height: 300px;
-  margin: 40px;
+  width: 300px;
+  height: 450px;
+  margin: 50px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -44,8 +92,8 @@ img.item {
 }
 
 .code-card {
-  background-color: silver;
-  margin: 10px;
+  background-color: rgb(192, 192, 192, 0.35);
+  margin: 50px;
   width: 500px;
   height: auto;
   padding: 30px;
@@ -61,10 +109,27 @@ h5 {
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 img.website-thumbnail {
   width: 400px;
   height: 200px;
   object-fit: cover;
+  margin-top: 25px;
+}
+
+img.website-thumbnail:hover{
+  box-shadow: 1px 1px 150px whitesmoke;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: LocalBrewerySans;
+  font-size: 40px;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(209, 252, 16, .75);
 }

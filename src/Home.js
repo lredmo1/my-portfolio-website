@@ -5,12 +5,13 @@ import code_thumbnail from "./images/coding_images/Coding_Portfolio_Thumbnail.jp
 function Home() {
     return (
     <>
-        <h1>The ABC Creative</h1>
+        <h1 id="home-title">The ABC Creative</h1>
         <h2>A Digital Portfolio by Lisa Primeaux-Redmond</h2>
-        <h3>A place for what I create</h3>
-        <a href="/art"><img src={art_thumbnail} width="500" /></a>
-        <a href="/baking"><img src={baking_thumbnail} width="500" /></a>
-        <a href="/code"><img src={code_thumbnail} width="500" /></a>
+        <div id="home-thumbnails">
+            <a href="/art"><img src={art_thumbnail} className="home-thumbnails"/></a>
+            <a href="/baking"><img src={baking_thumbnail} className="home-thumbnails"/></a>
+         <a href="/code"><img src={code_thumbnail} className="home-thumbnails"/></a>
+        </div>
     </>
     )
 }

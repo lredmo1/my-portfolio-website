@@ -2,7 +2,7 @@ import music from "./images/music-thumbnail.JPG";
 import trivia from "./images/trivia-thumbnail.JPG";
 import planner from "./images/planner-thumbnail.JPG";
 import shelter from "./images/shelter-thumbnail.JPG";
-import sketch from "./images/coding_images/comingsoon.jpg";
+import sketch from "./images/sketch-thumbnail.JPG";
 
 function Code() {
   return (
@@ -12,7 +12,9 @@ function Code() {
       <div className="code-wrapper">
         <div className="code-card">
           <h3>Music Lessons</h3>
-          <img src={music} className="website-thumbnail"/>
+          <a href="https://music-lessons-app.herokuapp.com/">
+            <img src={music} className="website-thumbnail"/>
+          </a>
           <h5>
             A React frontend, Rails backend app that leverages Vexflow library
             and Soundfont Player to create a digital instrument and teaching
@@ -37,13 +39,15 @@ function Code() {
 
         <div className="code-card">
           <h3>Cookie Monster In Danger!</h3>
-          <img src={trivia} className="website-thumbnail"/>
+          <a href="https://monster-in-danger-695bb.web.app/">
+            <img src={trivia} className="website-thumbnail"/>
+          </a>
           <h5>
             An interactive trivia game created using HTML, CSS, and vanilla
             Javascript, and an external trivia API. Users select a category and
             difficulty level to view a question and then input their answers
             below. Correct answers advance the blue monster toward a plate of
-            cookies, and the game is won when he reaches his goal.
+            cookies, and the game is won when the monster reaches his goal.
           </h5>
           <ul>
             <li>
@@ -69,10 +73,12 @@ function Code() {
 
         <div className="code-card">
           <h3>Productivity Planner</h3>
-          <img src={planner} className="website-thumbnail"/>
+          <a href="https://personal-weekly-planner.web.app/">
+            <img src={planner} className="website-thumbnail"/>
+          </a>
           <h5>
             A React single page app using components, props, state management,
-            client-side routing, and a json-server. This app is a planner with a
+            client-side routing, a json-server, and FullCalendar library. This app is a planner with a
             weekly/monthly/daily calendar for scheduling, a to do list section,
             and a place for daily focus and gratitude entries.
           </h5>
@@ -101,7 +107,7 @@ function Code() {
         <div className="code-card">
           <h3>The Best Friend Business</h3>
           <img src={shelter} className="website-thumbnail"/>
-          <h5>Coming Soon</h5>
+          <h5>A React frontend with a Sinatra API backend that uses Active Record to access and persist data to the database. This app is a management tool for animal shelter organizations that allows them to keep track of animals, adoption applications, and shelter data all in one location. </h5>
           <ul>
             <li>
               <a href="">Live Website (Coming Soon)</a>
@@ -125,7 +131,7 @@ function Code() {
         <div className="code-card">
           <h3>Fetch-A-Sketch</h3>
           <img src={sketch} className="website-thumbnail"/>
-          <h5>Coming Soon</h5>
+          <h5>A Rails frontend and React Backend application using HTML Canvas functionality. This is a drawing app that allows artists to create multi-layer drawings. User drawings are saved as a string of data and "redrawn" when viewed, allowing the user to continue editing after saving. </h5>
           <ul>
             <li>
               <a href="">Live Website (Coming Soon)</a>
