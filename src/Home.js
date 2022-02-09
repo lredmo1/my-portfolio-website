@@ -8,9 +8,18 @@ function Home() {
         <h1 id="home-title">The ABC Creative</h1>
         <h2>A Digital Portfolio of Creations by Lisa Primeaux-Redmond</h2>
         <div id="home-thumbnails">
-            <a href="/art"><img src={art_thumbnail} className="home-thumbnails"/></a>
-            <a href="/baking"><img src={baking_thumbnail} className="home-thumbnails"/></a>
-         <a href="/code"><img src={code_thumbnail} className="home-thumbnails"/></a>
+            <div>
+                <a href="/art"><img src={art_thumbnail} className="home-thumbnails"/></a>
+                <p className="home-thumbnail-title">ART</p>
+            </div>
+            <div>
+                <a href="/baking"><img src={baking_thumbnail} className="home-thumbnails"/></a>
+                <p className="home-thumbnail-title">Baking</p>
+            </div>
+            <div>
+                <a href="/code"><img src={code_thumbnail} className="home-thumbnails"/></a>
+                <p className="home-thumbnail-title">Code</p>
+            </div>      
         </div>
     </>
     )

@@ -74,11 +74,19 @@ span {
   border-radius: 10px;
   text-align: center;
   width:300px;
+  margin-bottom: 0;
 }
 
 .home-thumbnails:hover{
   box-shadow: 1px 1px 50px whitesmoke;
   cursor: pointer;
+}
+
+.home-thumbnail-title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Momcake-Bold;
 }
 
 /* Art and Baking Pages */
