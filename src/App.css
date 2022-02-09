@@ -124,6 +124,7 @@ img.item {
 .img__wrap:hover .img__description {
   visibility: visible;
   opacity: 1;
+  cursor: crosshair;
 }
 
 p {
