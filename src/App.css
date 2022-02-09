@@ -9,22 +9,35 @@
   src: url(./fonts/LocalBrewerySans.otf);
 }
 
+
+
 body {
   display: flex;
   justify-content: center;
   background-color: black;
   color: white;
+  margin: 0;
 }
 
 h1 {
   text-align: center;
-  /* box-shadow: inset 0px -6px 0px 0px rgb(209, 252, 16, .75); */
   padding-bottom: 0px;
   text-decoration: underline;
   text-decoration-color: rgb(209, 252, 16, .75);
   font-family: LocalBrewerySans;
   font-size: 70px;
   margin-bottom: 0;
+  animation: title-load 1000ms linear;
+}
+
+
+@keyframes title-load {
+  0% {
+    transform: translateX(-100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
 }
 
 h2 {
@@ -32,6 +45,16 @@ h2 {
   font-family: Momcake-Bold;
   margin-top: 5px;
   padding: 0;
+  animation: subtitle-load 1000ms linear;
+}
+
+@keyframes subtitle-load {
+  0% {
+    transform: translateX(100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
 }
 
 a {
@@ -55,6 +78,8 @@ a {
   font-weight: 500;
   font-size: 20px;
 }
+
+
 
 span {
   color: black;
