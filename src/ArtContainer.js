@@ -11,7 +11,7 @@ function Art() {
   return (
     <>
       <h1>Art</h1>
-      <h2>a collection of works in watercolor, acrylic, and oil pastel</h2>
+      <h2>A collection of works in watercolor, acrylic, and oil pastel</h2>
       <div className="item-wrapper">
         <div className="img__wrap">
           <img src={cleopatra} className="item" />

@@ -8,7 +8,7 @@ function Code() {
   return (
     <>
       <h1>Code</h1>
-      <h2>a collection of works in javascript, react, ruby, and rails</h2>
+      <h2>A collection of works in Javascript, React, Ruby, and Rails</h2>
       <div className="code-wrapper">
         <div className="code-card">
           <h3>Music Lessons</h3>
@@ -65,7 +65,7 @@ function Code() {
             </li>
             <li>
               <a href="https://javascript.plainenglish.io/a-beginners-guide-to-the-levenshtein-distance-algorithm-part-1-d581fef7588f" target="_blank">
-                Associated Blog Series
+                Blog Series
               </a>
             </li>
           </ul>
@@ -110,7 +110,7 @@ function Code() {
           <h5>A React frontend with a Sinatra API backend that uses Active Record to access and persist data to the database. This app is a management tool for animal shelter organizations that allows them to keep track of animals, adoption applications, and shelter data all in one location. </h5>
           <ul>
             <li>
-              <a href="" target="_blank">Live Website (Coming Soon)</a>
+              <a href="#" target="_blank">Live Website <i>(Coming Soon)</i></a>
             </li>
             <li>
               <a href="https://vimeo.com/667555457" target="_blank">Video Demo</a>
@@ -134,10 +134,10 @@ function Code() {
           <h5>A Rails frontend and React Backend application using HTML Canvas functionality. This is a drawing app that allows artists to create multi-layer drawings. User drawings are saved as a string of data and "redrawn" when viewed, allowing the user to continue editing after saving. </h5>
           <ul>
             <li>
-              <a href="" target="_blank">Live Website (Coming Soon)</a>
+              <a href="#" target="_blank">Live Website <i>(Coming Soon)</i></a>
             </li>
             <li>
-              <a href=""  target="_blank">Video Demo (Coming Soon)</a>
+              <a href="#"  target="_blank">Video Demo <i>(Coming Soon)</i></a>
             </li>
             <li>
               <a href="https://github.com/lredmo1/gestate" target="_blank">Github Repo</a>

@@ -12,7 +12,7 @@ function Baking() {
     <>
       <h1>Baking</h1>
       <h2>
-        a collection of cakes and more made with food-allergy-friendly
+        A collection of cakes and more made with food-allergy-friendly
         ingredients
       </h2>
       <div className="item-wrapper">
