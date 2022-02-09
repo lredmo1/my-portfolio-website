@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: Momcake-Thin;
+  src: url(./fonts/Momcake-Bold.otf);
+}
+
+@font-face {
   font-family: LocalBrewerySans;
   src: url(./fonts/LocalBrewerySans.otf);
 }
@@ -27,7 +32,7 @@ h1 {
   font-family: LocalBrewerySans;
   font-size: 70px;
   margin-bottom: 0;
-  animation: title-load 1000ms linear;
+  animation: title-load 1200ms linear;
 }
 
 
@@ -45,7 +50,7 @@ h2 {
   font-family: Momcake-Bold;
   margin-top: 5px;
   padding: 0;
-  animation: subtitle-load 1000ms linear;
+  animation: subtitle-load 1200ms linear;
 }
 
 @keyframes subtitle-load {
@@ -63,9 +68,7 @@ a {
 }
 
 #navbar {
-  /* text-align: center; */
   background-color: rgb(209, 252, 16, 0.95);
-  /* padding: 15px; */
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -85,8 +88,7 @@ span {
   color: black;
   font-family: LocalBrewerySans;
   font-size: 40px;
-  margin-left: 40px;
-  
+  margin-left: 40px;  
 }
 
 #home-thumbnails {
@@ -102,17 +104,20 @@ span {
   margin-bottom: 0;
 }
 
-/* .home-thumbnails:hover{
-  box-shadow: 1px 1px 50px whitesmoke;
-  cursor: pointer;
-} */
+.footer-icon {
+  width: 20px;
+  padding-right: 15px;
+  margin-left: 0;
+  padding-left: 0;
+}
 
-/* .home-thumbnail-title {
-  margin: 0;
-  padding: 0;
-  color: white;
-  font-family: Momcake-Bold;
-} */
+.footer-icon-bigger {
+  width: 22px;
+  padding-right: 12px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 
 /* Art and Baking Pages */
 .item-wrapper {
@@ -215,10 +220,17 @@ p {
   align-items: center;
   border-radius: 10px;
   font-size: 20px;
+  border: 2px solid rgb(209, 252, 16, 0.95);
 }
 
 h5 {
   text-align: center;
+  background-color: #FFFFFF90;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 2px 8px 8px black;
+
 }
 
 ul {
@@ -226,6 +238,15 @@ ul {
   padding: 0;
   margin: 0;
   text-align: center;
+  /* display: flex; */
+  /* justify-items: space-between; */
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffffd5;
+
+
 }
 
 img.website-thumbnail {
@@ -234,6 +255,9 @@ img.website-thumbnail {
   object-fit: cover;
   margin-top: 25px;
   border-radius: 8%;
+  border: 2px solid rgb(209, 252, 16, .75);
+  box-shadow: 2px 8px 8px black;
+
 }
 
 img.website-thumbnail:hover{

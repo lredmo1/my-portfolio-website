@@ -12,20 +12,20 @@ function Home() {
           <div className="img__wrap-home">
             <a href="/art">
               <img src={art_thumbnail} className="item-home" />
+              <p class="img__description">ART</p>
             </a>
-            <p class="img__description">ART</p>
           </div>
           <div className="img__wrap-home">
             <a href="/baking">
               <img src={baking_thumbnail} className="item-home" />
+              <p class="img__description">Baking</p>
             </a>
-            <p class="img__description">Baking</p>
           </div>
           <div className="img__wrap-home">
             <a href="/code">
               <img src={code_thumbnail} className="item-home" />
+              <p class="img__description">Code</p>
             </a>
-            <p class="img__description">Code</p>
           </div>
         </div>
       </div>
