@@ -1,39 +1,209 @@
-/* Universal && Home Page */
+/* Universal, NavBar, and Home Page */
+@font-face {
+  font-family: Momcake-Bold;
+  src: url(./fonts/Momcake-Bold.otf);
+}
+
+@font-face {
+  font-family: Momcake-Thin;
+  src: url(./fonts/Momcake-Bold.otf);
+}
+
+@font-face {
+  font-family: LocalBrewerySans;
+  src: url(./fonts/LocalBrewerySans.otf);
+}
+
+@font-face {
+  font-family: LT-Amber-Demibold;
+  src: url(./fonts/LT-Amber-Demibold.otf);
+}
+
+
 body {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: white;
+  margin: 0;
 }
 
 h1 {
   text-align: center;
+  padding-bottom: 0px;
+  text-decoration: underline;
+  text-decoration-color: rgb(209, 252, 16, .75);
+  font-family: LocalBrewerySans;
+  font-size: 70px;
+  margin-bottom: 0;
+  animation: title-load 1200ms linear;
+}
+
+
+@keyframes title-load {
+  0% {
+    transform: translateX(-100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
 }
 
 h2 {
   text-align: center;
+  font-family: LT-Amber-Demibold;
+  margin-top: 5px;
+  padding: 0;
+  animation: subtitle-load 1200ms linear;
 }
 
-h3 {
-  text-align: center;
+@keyframes subtitle-load {
+  0% {
+    transform: translateX(100%)
+  }
+  100% {
+    transform: translateX(0)
+  }
 }
 
-img {
+a {
+  color: white;
+  font-family: Momcake-Bold;
+}
+
+#navbar {
+  background-color: rgb(209, 252, 16, 0.95);
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  color: black;
+  margin-right: 40px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+span {
+  color: black;
+  font-family: LocalBrewerySans;
+  font-size: 40px;
+  margin-left: 40px;  
+}
+
+#home-thumbnails {
+  display: flex;
+  justify-content: center;
+}
+
+.home-thumbnails {
   margin: 30px;
   border-radius: 10px;
+  text-align: center;
+  width:300px;
+  margin-bottom: 0;
 }
+
+.footer-icon {
+  width: 20px;
+  padding-right: 15px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.footer-icon-bigger {
+  width: 22px;
+  padding-right: 12px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
 
 /* Art and Baking Pages */
 .item-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  row-gap: 40px;
+  column-gap: 40px;
+  padding: 10px 150px;
+}
+
+.img__wrap {
+  position: relative;
+  width: 300px;
+  /* height: 450px;  */
+}
+
+.img__wrap-home {
+  position: relative;
+  width: 300px;
+  /* height: 450px;  */
 }
 
 img.item {
-  width: 200px;
-  height: 300px;
-  margin: 40px;
+  width: 300px;
+  height: 450px;
+  margin: 50px;
   border-radius: 10px;
   object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img.item-home {
+  margin: 30px;
+  border-radius: 10px;
+  text-align: center;
+  width:300px;
+  margin-bottom: 0;
+  /* width: 300px;
+  height: 450px;
+  margin: 50px; */
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(245, 245, 245, 0.70);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  cursor: crosshair;
+}
+
+.img__wrap-home:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: LocalBrewerySans;
+  font-size: 20px;
 }
 
 /* Coding Page */
@@ -44,8 +214,8 @@ img.item {
 }
 
 .code-card {
-  background-color: silver;
-  margin: 10px;
+  background-color: rgb(192, 192, 192, 0.35);
+  margin: 50px;
   width: 500px;
   height: auto;
   padding: 30px;
@@ -53,18 +223,53 @@ img.item {
   flex-direction: column;
   align-items: center;
   border-radius: 10px;
+  font-size: 20px;
+  border: 2px solid rgb(209, 252, 16, 0.95);
 }
 
 h5 {
   text-align: center;
+  background-color: #FFFFFF90;
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 2px 8px 8px black;
+  font-family: LT-Amber-Demibold;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+li a {
+  text-decoration: none;
+  color: #ffffffd5;
+  font-family: LT-Amber-Demibold;
 }
 
 img.website-thumbnail {
   width: 400px;
   height: 200px;
   object-fit: cover;
+  margin-top: 25px;
+  border-radius: 8%;
+  border: 2px solid rgb(209, 252, 16, .75);
+  box-shadow: 2px 8px 8px black;
+
+}
+
+img.website-thumbnail:hover{
+  box-shadow: 1px 1px 100px whitesmoke;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: LocalBrewerySans;
+  font-size: 40px;
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: rgb(209, 252, 16, .75);
 }
