@@ -1,4 +1,4 @@
-/* Universal && Home Page */
+/* Universal, NavBar, and Home Page */
 @font-face {
   font-family: Momcake-Bold;
   src: url(./fonts/Momcake-Bold.otf);
@@ -40,16 +40,28 @@ a {
 }
 
 #navbar {
-  text-align: center;
-  background-color: rgb(209, 252, 16);
-  padding: 15px;
+  /* text-align: center; */
+  background-color: rgb(209, 252, 16, 0.95);
+  /* padding: 15px; */
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links {
   color: black;
-  margin: 20px;
+  margin-right: 40px;
   font-weight: 500;
+  font-size: 20px;
+}
+
+span {
+  color: black;
+  font-family: LocalBrewerySans;
+  font-size: 40px;
+  margin-left: 40px;
+  
 }
 
 #home-thumbnails {
