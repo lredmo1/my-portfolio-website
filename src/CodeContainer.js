@@ -43,11 +43,9 @@ function Code() {
             <img src={trivia} className="website-thumbnail"/>
           </a>
           <h5>
-            An interactive trivia game created using HTML, CSS, and vanilla
+            An interactive trivia game created using HTML, CSS, vanilla
             Javascript, and an external trivia API. Users select a category and
-            difficulty level to view a question and then input their answers
-            below. Correct answers advance the blue monster toward a plate of
-            cookies, and the game is won when the monster reaches his goal.
+            difficulty level to view a question, then input their answers. Correct answers advance the blue monster toward a plate of cookies, and the game is won when the monster reaches his goal.
           </h5>
           <ul>
             <li>
