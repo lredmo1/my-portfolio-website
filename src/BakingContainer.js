@@ -16,35 +16,35 @@ function Baking() {
         ingredients
       </h2>
       <div className="item-wrapper">
-          <div className="img__wrap">
+          <div className="img__wrap code-card-left">
             <img src={first_bday} className="item" />
             <p class="img__description">Baby's first birthday <br></br> Vanilla <br></br> Gluten free.</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-left">
             <img src={miller_wedding} className="item" />
             <p class="img__description">Wedding Cake <br></br> Almond <br></br> Top Layer Gluten and dairy free.</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-right">
             <img src={shr_wedding} className="item" />
             <p class="img__description">Wedding Cake <br></br> Earl Gray and Lavendar</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-right">
             <img src={caro_wedding} className="item" />
             <p class="img__description">Wedding Cake <br></br> Cream Cheese Carrot Cake</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-left">
             <img src={shr_cake} className="item" />
             <p class="img__description">Engagement Party Cake <br></br> Hazelnut Cardamom Carrot Cake <br></br>  Gluten free.</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-left">
             <img src={mermaid_cupcakes} className="item" />
             <p class="img__description">Mermaid Cupcakes <br></br>  Cinnamon Vanilla <br></br> Gluten free.</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-right">
             <img src={flower_cupcakes} className="item" />
             <p class="img__description">Floral Cupcakes <br></br>  Chocolate <br></br> Gluten free.</p>
           </div>
-          <div className="img__wrap">
+          <div className="img__wrap code-card-right">
             <img src={bday_Cake} className="item" />
             <p class="img__description">Birthday Cake<br></br>  Chocolate Cinnamon Roll <br></br> Gluten free.</p>
           </div>

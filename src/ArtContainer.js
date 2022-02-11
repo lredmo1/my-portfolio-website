@@ -13,35 +13,35 @@ function Art() {
       <h1>Art</h1>
       <h2>A collection of works in watercolor, acrylic, and oil pastel</h2>
       <div className="item-wrapper">
-        <div className="img__wrap">
+        <div className="img__wrap code-card-left">
           <img src={cleopatra} className="item" />
           <p class="img__description">Cleopatra <br></br>  Oil Pastel</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-left">
           <img src={hirono} className="item" />
           <p class="img__description">Mazi Hirono <br></br>  Oil Pastel</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-right">
           <img src={oconnor} className="item" />
           <p class="img__description">Sandra Day O'Connor <br></br>  Oil Pastel</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-right">
           <img src={williams} className="item" />
           <p class="img__description">Serena Williams <br></br>  Oil Pastel</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-left">
           <img src={rbg} className="item" />
           <p class="img__description">Ruth Bader Ginsberg <br></br>  Oil Pastel</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-left">
           <img src={tugboat} className="item" />
           <p class="img__description">New Orleans Tugboat <br></br>  Acrylic</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-right">
           <img src={moon} className="item" />
           <p class="img__description">Moon Flash Art <br></br>  Watercolor</p>
         </div>
-        <div className="img__wrap">
+        <div className="img__wrap code-card-right">
           <img src={sun} className="item" />
           <p class="img__description">Sun Flash Art <br></br>  Watercolor</p>
         </div>
