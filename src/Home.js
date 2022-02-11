@@ -9,19 +9,19 @@ function Home() {
       <h2>A Digital Portfolio of Creations by Lisa Primeaux-Redmond</h2>
       <div id="home-thumbnails">
         <div className="item-wrapper">
-          <div className="img__wrap-home">
+          <div className="img__wrap-home code-card-left">
             <a href="/art">
               <img src={art_thumbnail} className="item-home" />
               <p class="img__description">ART</p>
             </a>
           </div>
-          <div className="img__wrap-home">
+          <div className="img__wrap-home code-card-center">
             <a href="/baking">
               <img src={baking_thumbnail} className="item-home" />
               <p class="img__description">Baking</p>
             </a>
           </div>
-          <div className="img__wrap-home">
+          <div className="img__wrap-home code-card-right">
             <a href="/code">
               <img src={code_thumbnail} className="item-home" />
               <p class="img__description">Code</p>

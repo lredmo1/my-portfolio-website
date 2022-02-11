@@ -10,7 +10,7 @@ function Code() {
       <h1>Code</h1>
       <h2>A collection of works in Javascript, React, Ruby, and Rails</h2>
       <div className="code-wrapper">
-        <div className="code-card">
+        <div className="code-card code-card-left">
           <h3>Music Lessons</h3>
           <a href="https://music-lessons-app.herokuapp.com/" target="_blank">
             <img src={music} className="website-thumbnail"/>
@@ -37,17 +37,15 @@ function Code() {
           </ul>
         </div>
 
-        <div className="code-card">
+        <div className="code-card code-card-right">
           <h3>Cookie Monster In Danger!</h3>
           <a href="https://monster-in-danger-695bb.web.app/" target="_blank">
             <img src={trivia} className="website-thumbnail"/>
           </a>
           <h5>
-            An interactive trivia game created using HTML, CSS, and vanilla
+            An interactive trivia game created using HTML, CSS, vanilla
             Javascript, and an external trivia API. Users select a category and
-            difficulty level to view a question and then input their answers
-            below. Correct answers advance the blue monster toward a plate of
-            cookies, and the game is won when the monster reaches his goal.
+            difficulty level to view a question, then input their answers. Correct answers advance the blue monster toward a plate of cookies, and the game is won when the monster reaches his goal.
           </h5>
           <ul>
             <li>
@@ -71,7 +69,7 @@ function Code() {
           </ul>
         </div>
 
-        <div className="code-card">
+        <div className="code-card code-card-left">
           <h3>Productivity Planner</h3>
           <a href="https://personal-weekly-planner.web.app/" target="_blank">
             <img src={planner} className="website-thumbnail"/>
@@ -104,7 +102,7 @@ function Code() {
           </ul>
         </div>
 
-        <div className="code-card">
+        <div className="code-card code-card-right">
           <h3>The Best Friend Business</h3>
           <img src={shelter} className="website-thumbnail"/>
           <h5>A React frontend with a Sinatra API backend that uses Active Record to access and persist data to the database. This app is a management tool for animal shelter organizations that allows them to keep track of animals, adoption applications, and shelter data all in one location. </h5>
@@ -128,7 +126,7 @@ function Code() {
           </ul>
         </div>
 
-        <div className="code-card">
+        <div className="code-card code-card-center">
           <h3>Fetch-A-Sketch</h3>
           <img src={sketch} className="website-thumbnail"/>
           <h5>A Rails frontend and React Backend application using HTML Canvas functionality. This is a drawing app that allows artists to create multi-layer drawings. User drawings are saved as a string of data and "redrawn" when viewed, allowing the user to continue editing after saving. </h5>
